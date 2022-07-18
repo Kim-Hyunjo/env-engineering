@@ -8,6 +8,7 @@ function App() {
         <h2>Sewege Treatment Monitoring Solution</h2>
       </header>
       hello world
+      <div>nonononono</div>
       <nav></nav>
       <Dashboard />
     </div>
