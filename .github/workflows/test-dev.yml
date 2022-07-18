@@ -12,10 +12,11 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: action/checkout@v3
+        uses: action/checkout@v2
         with:
           repository: Kim-Hyunjo/env-engineering
           ref: dev
+          token: ${{ github.token }}
 
       - name: Use Node.js
         uses: actions/setup-node@v3
