@@ -8,9 +8,9 @@ const Dashboard = ({ props }) => {
   return (
     <div css={dashboardStyle}>
       <div css={cardListStyle}>
-        <Card />
-        <Card />
-        <Card />
+        <Card state="good" />
+        <Card state="bad" />
+        <Card state="normal" />
       </div>
       <div css={mainChartStyle}>
         <BarChart />

@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Sewege Treatment Solution</h1>
+        <h2>Sewege Treatment Monitoring Solution</h2>
       </header>
       <nav></nav>
       <Dashboard />
